@@ -1,0 +1,19 @@
+location = "Canada Central"
+
+resource_group_name = "rg-polyauth"
+
+app_service_plan_name = "asp-polyauth"
+
+web_app_name = "REPLACE_WITH_UNIQUE_WEB_APP_NAME"
+
+acr_name = "REPLACE_WITH_UNIQUE_ACR_NAME"
+
+postgres_server_name = "REPLACE_WITH_UNIQUE_POSTGRES_NAME"
+
+postgres_admin_username = "keycloakadmin"
+
+postgres_admin_password = "REPLACE_WITH_SECRET"
+
+keycloak_admin_password = "REPLACE_WITH_SECRET"
+
+keycloak_hostname = "https://polyauth.ixmedia.ai"
